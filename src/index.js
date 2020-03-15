@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
-import CodePush from 'react-native-code-push'
-import OneSignal from 'react-native-onesignal'
+import CodePush from 'react-native-code-push';
+import OneSignal from 'react-native-onesignal';
 
 import './config/ReactotronConfig';
 
