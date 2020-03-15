@@ -16,6 +16,7 @@
     "axios": "^0.19.2",
     "buffer": "^5.5.0",
     "js-base64": "^2.5.2",
+    "minimist": "^1.2.5",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-native": "0.61.5",
