@@ -36,6 +36,7 @@ target 'gitInfo' do
 
 
 
+
   target 'gitInfoTests' do
     inherit! :search_paths
     # Pods for testing
