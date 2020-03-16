@@ -153,19 +153,19 @@ android {
             include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
         }
     }
-    // buildTypes {
-    //     debug {
-    //         buildConfigField "String", "CODEPUSH_KEY", '""'
-    //     }
-    //     releaseStaging {
-    //         buildConfigField "String", "CODEPUSH_KEY", '"mKPlPR0atg0TfWBpqKNRvUT8JkiVugkiU9SWz"'
+    buildTypes {
+        debug {
+            buildConfigField "String", "CODEPUSH_KEY", '""'
+        }
+        releaseStaging {
+            buildConfigField "String", "CODEPUSH_KEY", '"mKPlPR0atg0TfWBpqKNRvUT8JkiVugkiU9SWz"'
 
-    //         matchingFallbacks = ['debug', 'release']
-    //     }
-    //     release {
-    //         buildConfigField "String", "CODEPUSH_KEY", '"Kpe09KObnzhuCONVj_FDeIgMCgOJAbnt7fDVT"'
-    //     }
-    // }
+            matchingFallbacks = ['debug', 'release']
+        }
+        release {
+            buildConfigField "String", "CODEPUSH_KEY", '"Kpe09KObnzhuCONVj_FDeIgMCgOJAbnt7fDVT"'
+        }
+    }
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
