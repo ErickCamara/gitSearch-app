@@ -1,21 +1,6 @@
 import React, { Component } from 'react';
-import api from '../../services/api';
 import PropTypes from 'prop-types';
-import base64 from 'react-native-base64';
-import { MarkdownView } from 'react-native-markdown-view';
-import Markdown from 'react-native-markdown-renderer';
-import { ScrollView, Dimensions } from 'react-native';
-// import Markdown from 'react-native-markdown-package';
-import { Base64 } from 'js-base64';
-import HTML from 'react-native-render-html';
 import { WebView } from 'react-native-webview';
-
-
-
-import { Container,
-    Name,
-    Bio,
-    InfoText } from './styles';
 
 export default class Readme extends Component {
     static navigationOptions = {

@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'gitInfo' do
-  # Pods for gitInfo
+target 'gitSearch' do
+  # Pods for gitSearch
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,10 +34,7 @@ target 'gitInfo' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-
-
-
-  target 'gitInfoTests' do
+  target 'gitSearchTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -45,10 +42,10 @@ target 'gitInfo' do
   use_native_modules!
 end
 
-target 'gitInfo-tvOS' do
-  # Pods for gitInfo-tvOS
+target 'gitSearch-tvOS' do
+  # Pods for gitSearch-tvOS
 
-  target 'gitInfo-tvOSTests' do
+  target 'gitSearch-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

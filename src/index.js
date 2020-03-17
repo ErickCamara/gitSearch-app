@@ -1,35 +1,35 @@
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
-import CodePush from 'react-native-code-push';
+// import CodePush from 'react-native-code-push';
 import OneSignal from 'react-native-onesignal';
 
 import './config/ReactotronConfig';
 
 import Routes from './routes';
 
-class App extends Component {
-    constructor(props) {
-        OneSignal.init('1f0f7fbe-93af-421b-9feb-2b1c390399c7');
-        OneSignal.addEventListener('received', this.onReceived);
-        OneSignal.addEventListener('opened', this.onOpened);
-        OneSignal.addEventListener('ids', this.onIds);
-    }
+export default class App extends Component {
+    // constructor(props) {
+    //     OneSignal.init('1f0f7fbe-93af-421b-9feb-2b1c390399c7');
+    //     OneSignal.addEventListener('received', this.onReceived);
+    //     OneSignal.addEventListener('opened', this.onOpened);
+    //     OneSignal.addEventListener('ids', this.onIds);
+    // }
 
-    componentWillUnmount() {
-        OneSignal.removeEventListener('received', this.onReceived);
-        OneSignal.removeEventListener('opened', this.onOpened);
-        OneSignal.removeEventListener('ids', this.onIds);
-    }
+    // componentWillUnmount() {
+    //     OneSignal.removeEventListener('received', this.onReceived);
+    //     OneSignal.removeEventListener('opened', this.onOpened);
+    //     OneSignal.removeEventListener('ids', this.onIds);
+    // }
 
-    onReceived = (data) => {
+    // onReceived = (data) => {
 
-    }
-    onOpened = (notification) => {
+    // }
+    // onOpened = (notification) => {
 
-    }
-    onIds = (id) => {
+    // }
+    // onIds = (id) => {
 
-    }
+    // }
 
     render() {
         return (
@@ -41,6 +41,6 @@ class App extends Component {
     }
     };
 
-export default CodePush({
-    checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
-})(App);
+// export default CodePush({
+//     checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
+// })(App);

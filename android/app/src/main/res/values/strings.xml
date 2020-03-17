@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">Git Search</string>
-    <!-- <string name="reactNativeCodePush_androidDeploymentKey" moduleConfig="true">Kpe09KObnzhuCONVj_FDeIgMCgOJAbnt7fDVT</string> -->
-    <!-- <string moduleConfig="true" name="CodePushDeploymentKey">Kpe09KObnzhuCONVj_FDeIgMCgOJAbnt7fDVT</string> -->
-    <string moduleConfig="true" name="CodePushDeploymentKey">BuildConfig.CODEPUSH_KEY</string>
+    <string name="app_name">gitSearch</string>
 </resources>
