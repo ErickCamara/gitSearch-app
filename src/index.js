@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
-// import CodePush from 'react-native-code-push';
+import CodePush from 'react-native-code-push';
 import OneSignal from 'react-native-onesignal';
 
 import './config/ReactotronConfig';
@@ -41,6 +41,6 @@ export default class App extends Component {
     }
     };
 
-// export default CodePush({
-//     checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
-// })(App);
+export default CodePush({
+    checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
+})(App);
