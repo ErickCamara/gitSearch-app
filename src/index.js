@@ -7,7 +7,7 @@ import './config/ReactotronConfig';
 
 import Routes from './routes';
 
-export default class App extends Component {
+class App extends Component {
     // constructor(props) {
     //     OneSignal.init('1f0f7fbe-93af-421b-9feb-2b1c390399c7');
     //     OneSignal.addEventListener('received', this.onReceived);
