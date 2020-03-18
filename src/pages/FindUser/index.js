@@ -103,7 +103,7 @@ export default class FindUser extends Component {
     }
     removeUser = async (login) => {
         const { users } = this.state;
-        console.tron.log('USERS VALUE', users)
+
         for (let i = 0; i < users.length; i++) {
 
             if (users[i].login == login){

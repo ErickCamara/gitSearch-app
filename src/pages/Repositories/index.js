@@ -160,8 +160,7 @@ export default class Repositories extends Component {
 
     removeStarred = async (id, name) => {
         const { repos, data  } = this.state;
-        console.tron.log('DATA DENTRO DO REMOVE: ', data)
-        console.tron.log('REPOS DENTRO DO REMOVE: ', repos)
+
         for (let i = 0; i < repos.length; i++) {
 
             var index = repos.findIndex(repos => repos.id === id)
