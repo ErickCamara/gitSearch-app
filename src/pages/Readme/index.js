@@ -19,7 +19,6 @@ export default class Readme extends Component {
 
     async componentDidMount() {
         const data = this.props.navigation.getParam('data');
-        console.tron.log("REPOOOO: ", data)
 
         this.setState({
             login: data,
