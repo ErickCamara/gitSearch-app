@@ -57,41 +57,48 @@ export default class FindUser extends Component {
         const { users, newUser } = this.state;
 
         this.setState({loading: true});
+        try {
+            const response = await api.get(`/users/${newUser}`);
 
-        const response = await api.get(`/users/${newUser}`);
+            const data = {
+                name: response.data.name,
+                login: response.data.login,
+                bio: response.data.bio,
+                avatar: response.data.avatar_url,
+                key: response.data.full_name,
+            };
 
-        const data = {
-            name: response.data.name,
-            login: response.data.login,
-            bio: response.data.bio,
-            avatar: response.data.avatar_url,
-            key: response.data.full_name,
-        };
+            for (let i = 0; i <= users.length; i++) {
 
-        for (let i = 0; i <= users.length; i++) {
-
-            if(users == null || users == ''){
-                this.setState({
-                    users: [ ... users, data],
-                    newUser: '',
-                    loading: false,
-                });
-            }else {
-                if(users.every((item) => item.login !== data.login)) {
+                if(users == null || users == ''){
                     this.setState({
                         users: [ ... users, data],
                         newUser: '',
                         loading: false,
                     });
-                }
-                else{
-                    alert('Usuário já cadastrado')
-                    this.setState({
-                        loading: false,
-                    })
+                }else {
+                    if(users.every((item) => item.login !== data.login)) {
+                        this.setState({
+                            users: [ ... users, data],
+                            newUser: '',
+                            loading: false,
+                        });
+                    }
+                    else{
+                        alert('Info','Usuário já cadastrado')
+                        this.setState({
+                            loading: false,
+                        })
+                    }
                 }
             }
+        } catch (error) {
+            alert('O usuário digitado não existe, por favor tente novamente')
+            this.setState({
+                loading: false,
+            })
         }
+
         Keyboard.dismiss();
     }
     removeUser = async (login) => {
