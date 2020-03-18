@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">gitSearch</string>
+    <string name="app_name">Git Search</string>
     <string moduleConfig="true" name="CodePushDeploymentKey">BuildConfig.CODEPUSH_KEY</string>
 </resources>

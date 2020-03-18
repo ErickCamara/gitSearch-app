@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.8.1",
     "@react-native-community/masked-view": "^0.1.7",
+    "appcenter-cli": "^2.3.4",
     "axios": "^0.19.2",
     "minimist": "^1.2.5",
     "prop-types": "^15.7.2",
