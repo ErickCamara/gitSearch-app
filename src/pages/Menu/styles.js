@@ -17,6 +17,8 @@ export const LogoImg = styled.Image`
 `;
 export const LogoText = styled.Image`
     margin-top: 10px;
+    width: 200px;
+    height: 50px;
 `;
 export const Body = styled.View`
     flex-direction: row;
