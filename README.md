@@ -1,9 +1,7 @@
-<!-- ![image]() -->
-<div id="teste">
-    <img src="Images/octo.png" />
-    <h1 align="center">Git Search App <h1>
+<div align="center">
+    <img src='Images/octoSearch.png' />
+    <h1 align='center'> Git Search App</h1>
 </div>
-
 <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 
 <p align="center">
@@ -47,12 +45,3 @@ E o seu aplicativo será carregado normalmente. Caso não seja, basta fechar o a
 ## Observação
 
 Caso ocorra algum erro ao executar o aplicativo, informando que está faltando alguma dependência, basta verificar o arquivo `package.json` que será possível ver todas as dependências necessárias para rodar o programa.
-
-
-<style type="text/css">
-#teste {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
