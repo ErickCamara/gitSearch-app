@@ -1,5 +1,8 @@
-# ![Images/octoSearch.png](Images/octo.png) **Git Search App**
-### Pesquise usuários, repositórios e adicione a sua lista
+<!-- # ![Images/octoSearch.png](Images/octo.png) **Git Search App** -->
+<img src='Images/octoSearch.png' />
+<h1 align="center"> Git Search App</h1>
+<h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
+<!-- ###  -->
 
 ![Images/home.jpeg](Images/app.png)
 
