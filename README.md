@@ -7,8 +7,8 @@
 <p align="center">
   <a href="https://drive.google.com/file/d/1rbdADrFLHxBktDZAPfJ0JFQhPaWMYsNG/view?usp=sharing">
     <img src="Images/download.png" />
-    <br/>
   </a>
+  <br/>
 </p>
 
 
