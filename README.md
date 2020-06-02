@@ -1,4 +1,5 @@
-#  ![Images/octoSearch.png](Images/octoSearch.png)                                                 **Git Search App**
+![Images/octoSearch.png](Images/octoSearch.png)
+#                                                **Git Search App**
 
 ### Pesquise usuários, repositórios e adicione a sua lista
 
