@@ -1,12 +1,11 @@
 <div align="center">
-    <img src='Images/octoSearch.png' />
-    <h1 align='center'> Git Search App</h1>
+    <img src='Images/Title.png' />
 </div>
 <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1rbdADrFLHxBktDZAPfJ0JFQhPaWMYsNG/view?usp=sharing">
-    <img alt="app-store" src="Images/download.png" />
+    <img src="Images/download.png" />
   </a>
 </p>
 
