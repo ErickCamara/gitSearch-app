@@ -1,6 +1,6 @@
-<div align="center" style="display:inline;">
+<div align="center">
     <img src='Images/octoSearch.png' />
-    <h1 align='center'> Git Search App</h1>
+    <span align='center'> Git Search App</span>
 </div>
 <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 
