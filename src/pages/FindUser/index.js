@@ -140,11 +140,11 @@ export default class FindUser extends Component {
         });
 
     }
-    handleNavigate = (user) => {
-        const { navigation } = this.props;
+        handleNavigate = (user) => {
+            const { navigation } = this.props;
 
-        navigation.navigate('User', { user });
-    }
+            navigation.navigate('User', { user });
+        }
 
     render() {
         const { users, newUser, loading } = this.state;
