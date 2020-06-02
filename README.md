@@ -9,11 +9,8 @@
     <img src="Images/download.png" />
   </a>
   <br/>
+    <img src="Images/app.png" />
 </p>
-
-
-![Images/home.jpeg](Images/app.png)
-
 
 Git Search é um aplicativo feito em React Native que utiliza a API do GitHub para realizar consultas.
 
