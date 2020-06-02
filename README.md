@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://drive.google.com/file/d/1rbdADrFLHxBktDZAPfJ0JFQhPaWMYsNG/view?usp=sharing">
     <img src="Images/download.png" />
+    <br/>
   </a>
 </p>
 
@@ -14,11 +15,11 @@
 ![Images/home.jpeg](Images/app.png)
 
 
-Git Search é um aplicativo feito em React Native, utilizando a API do GitHub.
+Git Search é um aplicativo feito em React Native que utiliza a API do GitHub para realizar consultas.
 
-Tem o intuito de realizar consultas de usuários e principalmente de repositórios do GitHub, possuindo a possibilidade de adicionar os mesmos em uma lista de favoritos, de forma a facilitar o acesso
+Tem o intuito de realizar pesquisas de usuários e repositórios no GitHub, possuindo a possibilidade de adicionar os mesmos em uma lista de favoritos, de forma a facilitar o acesso e futuras consultas
 
-## Iniciando
+## Executando o projeto
 
 Instale as dependências necessárias:
 
