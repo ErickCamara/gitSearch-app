@@ -1,5 +1,5 @@
 <!-- # ![Images/octoSearch.png](Images/octo.png) **Git Search App** -->
-<div>
+<div display='flex'>
     <img display='inline' src='Images/octoSearch.png' />
     <h1 align="center"> Git Search App</h1>
 </div>
