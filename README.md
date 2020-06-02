@@ -1,4 +1,4 @@
-<p align="center" display='inline'>
+<p align="center" style="display:inline" >
     <img src='Images/octoSearch.png' />
     <h1 align='center'> Git Search App</h1>
 </p>
