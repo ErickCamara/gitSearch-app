@@ -8,8 +8,8 @@
   <a href="https://drive.google.com/file/d/1rbdADrFLHxBktDZAPfJ0JFQhPaWMYsNG/view?usp=sharing">
     <img src="Images/download.png" />
   </a>
-  <br/>
-    <img src="Images/app.png" />
+  <br/><br/><br/>
+  <img src="Images/app.png" />
 </p>
 
 Git Search é um aplicativo feito em React Native que utiliza a API do GitHub para realizar consultas.
