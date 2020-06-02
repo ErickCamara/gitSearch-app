@@ -1,6 +1,7 @@
 <div align="center">
     <img src='Images/Title.png' />
     <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
+    <br/>
 </div>
 
 <p align="center">
