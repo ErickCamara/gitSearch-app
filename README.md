@@ -1,16 +1,16 @@
 
 
-![Git%20Search%/octoSearch.png](Git%20Search%/octoSearch.png)
+![Images/octoSearch.png](Images/octoSearch.png)
 
 # **Git Search App**
 
 ### Pesquise usuários, repositórios e adicione a sua lista
 
-![Git%20Search%/home.jpeg](Git%20Search%/home.jpeg)
-![Git%20Search%/findUser.jpeg](Git%20Search%/findUser.jpeg)
-![Git%20Search%/user.jpeg](Git%20Search%/user.jpeg)
-![Git%20Search%/findRepo.jpeg](Git%20Search%/findRepo.jpeg)
-![Git%20Search%/repositorie.jpeg](Git%20Search%/repositorie.jpeg)
+![Images/home.jpeg](Images/home.jpeg)
+![Images/findUser.jpeg](Images/findUser.jpeg)
+![Images/user.jpeg](Images/user.jpeg)
+![Images/findRepo.jpeg](Images/findRepo.jpeg)
+![Images/repositorie.jpeg](Images/repositorie.jpeg)
 
 Git Search é um aplicativo feito em React Native, utilizando a API do GitHub.
 
