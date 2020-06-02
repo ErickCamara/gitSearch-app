@@ -1,14 +1,14 @@
 <!-- # ![Images/octoSearch.png](Images/octo.png) **Git Search App** -->
 <p align="center">
     <img src='Images/octoSearch.png' />
-    <h1> Git Search App</h1>
+    <h1 align='center'> Git Search App</h1>
 </p>
 <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 <!-- ###  -->
 
 <p align="center">
-  <a href="Aplicativo/gitSearch.apk">
-    <img alt="app-store" src="Images/download.jpeg" />
+  <a href="https://drive.google.com/file/d/1rbdADrFLHxBktDZAPfJ0JFQhPaWMYsNG/view?usp=sharing">
+    <img alt="app-store" src="Images/download.png" />
   </a>
 </p>
 
