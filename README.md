@@ -1,4 +1,4 @@
-![image](path-to-image.jpg){: style="float: left"}
+![image](Images/octo.png){: style="float: left"}
 <h1 align="center">Git Search App <h1>
 <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 
