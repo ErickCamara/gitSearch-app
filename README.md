@@ -1,7 +1,7 @@
 <div align="center">
     <img src='Images/Title.png' />
+    <h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 </div>
-<h3 align="center">Pesquise usuários, repositórios e adicione a sua lista</h3>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1rbdADrFLHxBktDZAPfJ0JFQhPaWMYsNG/view?usp=sharing">
