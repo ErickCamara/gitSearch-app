@@ -14,6 +14,7 @@
     "@react-native-community/masked-view": "^0.1.7",
     "appcenter-cli": "^2.3.4",
     "axios": "^0.19.2",
+    "logkitty": "^0.7.1",
     "minimist": "^1.2.5",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
